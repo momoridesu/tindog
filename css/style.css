@@ -1,0 +1,73 @@
+.gradient-background {
+  background: linear-gradient(800deg, rgb(252, 214, 227), #eff8c7, rgb(238, 130, 148));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#apple{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(173, 173, 173);
+  color: rgb(101, 98, 100);
+  box-shadow: 10px 0px 10px 2px rgba(133, 132, 132, 0.226);
+  
+}
+
+#button-2{
+  border-color: rgb(137, 137, 137);
+  color: rgb(82, 63, 63);
+  box-shadow: 10px 0px 10px 2px rgba(133, 132, 132, 0.226);
+
+}
+
+
+.mb-4{
+  background: linear-gradient(to left, #eff8c7, pink);
+}
+
+.py-3{
+  background-color: pink;
+}
+
+.dog-image{
+  height: 100px;
+  border-radius: 50%;
+}
+
+.pink{
+  color: rgb(169, 71, 104);
+}
+
+.pink-background{
+  background-color: rgba(255, 69, 109, 0.33);
+}
